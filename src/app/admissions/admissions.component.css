@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  header .heading{
+    z-index:1;
+    margin-top:0;
+    margin-bottom: 2px;
+    padding:2px;
+    width:calc(100% - 0%);
+    top:0;
+    position:fixed;
+    height: 75px;
+    display:flex;
+    background-image:url("src/assets/images/blue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header .heading h3{
+    color:#FFF;
+    margin-left:300px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    
+  }
+  
+  header .heading img{
+    width:70px;
+    height:60px;
+    float:left;
+    margin-left: 5px;
+    margin-top:5px;
+    margin-bottom:10px;
+    border-radius:50%;
+  
+  }
+  
+  header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("src/assets/images/b1.jpg");
+    background-size: cover;
+   /* background-position: center;*/
+    position: relative;
+  }
+  
+  /*header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+   
+  }*/
+  
+  header nav.navbar {
+    z-index: 9999;
+    background:rgb(255, 45, 140);
+    top:7%;
+    height:50px;
+    align-items: center;
+    position:relative;
+  }
+  
+  header nav.navbar .nav-item:hover{
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    margin-top:4px;
+    border-radius: 40%;
+  }
+  
+  
+  header nav.navbar .navbar-brand {
+    color: #FFF;
+    margin-left:0;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top:10px;
+  }
+  
+  header nav.navbar .nav-item{
+    color:#FFF;
+    align-items: center;
+  
+  }
+  
+  header nav.navbar .nav-item .nav-link{
+    color: #FFF;
+    transition:0.3s;
+    transition-property: color;
+    align-items: center;
+    margin-top: 5px;
+  
+  }
+  
+  
+  header nav.navbar .nav-item .nav-link .dropdown-menu .dropdown-item {
+    background:  linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+  }
+  
+  header nav.navbar .nav-item .nav-link:hover{
+    color: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    
+  }
+  
+  header nav.navbar .navbar-toggler {
+    color:rgb(255, 45, 140);
+    font-size: 1.3rem;
+    cursor: pointer;
+    z-index: 999;
+    outline: none;
+    background:rgb(255, 45, 140);
+  }
+  
+  
+  header .header-content {
+    position: absolute;
+    z-index: 999;
+    height: 600px;
+    left: 50%;
+    top: 56%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+/* css styles for admissions page*/
+.container-fluid{
+    margin-top: 70px;
+}
+.col-sm-3 ul{
+    background-color: rgba(240, 248, 255, 0.884);
+    color:red;
+    width:90%;
+    height:100%;
+}
+.col-sm-3{
+    list-style-type: none;
+    margin-left:10px;
+    margin-right:8px;
+    padding:0;
+    border-radius: 5px;
+ 
+}
+.col-sm-3 li a.active{
+background-color:teal;
+color:white;
+}
+
+.col-sm-3 li a{
+display: block;
+text-decoration:none;
+text-align: center;
+padding:15px 10px 15px 10px;
+font-weight: bold;
+color:black;
+}
+.col-sm-3 li a:hover:not(.active){
+background-color:rgb(109, 206, 206);
+color:white;
+
+}
+
+.card{
+    margin-left:0;
+}
+.card .main h4{
+    background-color: teal;
+    padding-left:110px;
+    padding-top:25px;
+    padding-bottom: 25px;
+    font-size: x-large;
+    font-weight: bold;
+    color:white;
+    display:block;
+
+}
+.card .sub1{
+    background-color: rgba(240, 248, 255, 0.589);
+    margin-top:20px;
+    margin-bottom:12px;
+    margin-left:12px;
+    margin-right: 12px;
+    padding: 5px;
+}
+.card .sub2{
+    background-color: rgba(240, 248, 255, 0.589);
+    margin-top:12px;
+    margin-bottom:12px;
+    margin-left:12px;
+    margin-right: 12px;
+    padding: 25px;
+}
+.card .sub2 a{
+    text-decoration: none;
+    color:rgb(182, 83, 83);
+    font-size:15px;
+    font-weight:800;
+    margin-left:5px;
+}
+.card .sub3{
+    background-color: rgba(240, 248, 255, 0.589);
+    margin-top:12px;
+    margin-bottom:60px;
+    margin-left:12px;
+    margin-right: 12px;
+    padding: 25px;
+    padding-bottom:30px;
+}
+.card .sub3 a{
+    text-decoration: none;
+    color:rgb(182, 83, 83);
+    font-size:15px;
+    font-weight:800;
+    margin-left:5px;
+}
+.card .sub2 span{
+    color:red;
+    margin-left:295px;
+}
+.container-fluid{
+    margin-bottom:0;
+}
+
+section {
+    padding-top:20px;
+    background-image: url("src/assets/images/blue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:0;
+  
+    
+  }
+  
+  section .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  
+  #footer h5{
+  padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+  }
+  #footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+  #footer li{
+    color:#ffffff;
+  }
+  #footer li i:hover{
+    color:rgb(255, 45, 140);
+  }
+  #footer ul.social li{
+  padding: 3px 0;
+  }
+  #footer ul.social li a i {
+    margin-right: 5px;
+  font-size:25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+  }
+  #footer ul.social li:hover a i {
+  font-size:30px;
+  margin-top:-10px;
+  }
+  #footer ul.social li a,
+  #footer ul.quick-links li a{
+  color:#ffffff;
+  }
+  #footer ul.social li a:hover{
+  color:rgb(255, 45, 140);
+
+  }
+  #footer ul.quick-links li{
+  padding: 3px 0;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+  }
+  #footer ul.quick-links li:hover{
+  padding: 3px 0;
+  margin-left:5px;
+  font-weight:700;
+  }
+  #footer ul.quick-links li a i{
+  margin-right: 5px;
+  }
+  #footer ul.quick-links li:hover a i {
+    font-weight: 700;
+    color:rgb(255, 45, 140);
+  }
+  
+  @media (max-width:767px){
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+  }
+  

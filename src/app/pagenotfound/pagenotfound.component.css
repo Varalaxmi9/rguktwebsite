@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container-fluid{
+    background-image: url('src/assets/images/error.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.container-fluid button{
+    margin-left:440px;
+    margin-top:570px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 18px;
+    padding-bottom: 24px;
+    width:600px;
+    background-color:rgb(9, 180, 248);
+    border-radius: 20%;
+    box-shadow: 2px 2px 4px 6px pink;
+    transition: 0.3s;
+    transform:background, box-shadow;
+
+}
+.container-fluid button a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    word-spacing: 1em;
+    letter-spacing: 2px;
+  
+}
+.container-fluid button:hover{
+    background-color:deeppink;
+    box-shadow: 2px 2px 4px 6px pink;
+    
+}
